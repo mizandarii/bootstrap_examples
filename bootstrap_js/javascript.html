@@ -199,5 +199,89 @@
     </div>
 
     <h3>Лист групп</h3>
-    <div class="container">
-        <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-success active" id="list-home-list" data-toggle="list" href = ><div id="list-home">
+                                Home
+                                <span class="badge badge-primary">25</span>
+                            </a>
+                            <a class="list-group-item list-group-item-success active" id="list-profile-list" data-toggle="list" href = ><div id="list-profile">
+                                Profile
+                                <span class="badge badge-primary">25</span>
+                            </a>
+                            <a class="list-group-item list-group-item-success active" id="list-messages-list" data-toggle="list" href = ><div id="list-messages">
+                                Message
+                                <span class="badge badge-primary">25</span>
+                            </a>
+                            <a class="list-group-item list-group-item-success active" id="list-settings-list" data-toggle="list" href = ><div id="list-settings">
+                                Settings
+                                <span class="badge badge-primary">25</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-home" aria-labelledby="list-home-list">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, praesentium maiores quis dignissimos
+                                iure dolorum consequatur nam tenetur voluptatum sint quam a, quibusdam libero cumque!
+                            </div>
+                            <div class="tab-pane fade" id="list-profile" aria-labelledby="list-profile-list">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, praesentium maiores quis dignissimos
+                                iure dolorum consequatur nam tenetur voluptatum sint quam a, quibusdam libero cumque!
+                            </div>
+                            <div class="tab-pane fade" id="list-messages" aria-labelledby="list-messages-list">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, praesentium maiores quis dignissimos
+                                iure dolorum consequatur nam tenetur voluptatum sint quam a, quibusdam libero cumque!
+                            </div>
+                            <div class="tab-pane fade" id="list-settings" aria-labelledby="list-settings-list">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, praesentium maiores quis dignissimos
+                                iure dolorum consequatur nam tenetur voluptatum sint quam a, quibusdam libero cumque!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Модальное окно</h3>
+        <div class="container">
+            <div class="row">
+                <!--Button trigger mount-->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+                    Launch demo modal
+                </button>
+
+                <!--Modal-->
+                <div class="modal fade" id="Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modat-title">Произвольное окно</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quaerat accusantium consequuntur neque 
+                                asperiores sunt in repellendus praesentium rem odio labore sint dolorem error natus quasi tempora modi, esse 
+                                qui rerum ut vel id molestias.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="integrity-"sha384-KkI302DKtIkvYIK3UENZmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpGSKkN"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo70B41mKFc8IZQZiCq4NCcelEa04THwickwpIf9c9IpFgh” crossorigin="anonymous” ></script>
+        <script src="https://maxcdn. bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4doSUnbKysXSWZ2Xm3XxPqe5ikTFUKJNKCk9SaVuEZF1I"
+        crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
